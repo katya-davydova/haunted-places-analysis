@@ -19,7 +19,9 @@ Data analysis of ~11,000 reported haunted locations across the United States.
 ## Results
 
 ### Interactive map
-[🗺️ Open the interactive map](https://katya-davydova.github.io/haunted-places-analysis/haunted_map.html)
+[![Map of haunted places](haunted_map.png)](https://katya-davydova.github.io/haunted-places-analysis/haunted_map.html)
+
+[🗺️ Click here or on the image to open the interactive map](https://katya-davydova.github.io/haunted-places-analysis/haunted_map.html)
 
 ### Top 10 states
 ![Top states](top_states.png)
