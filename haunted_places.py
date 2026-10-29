@@ -32,6 +32,7 @@ top_states.sort_values().plot(kind="barh", color="darkorange", figsize=(8, 5))
 plt.title("Top 10 States by Number of Haunted Places")
 plt.xlabel("Number of places")
 plt.tight_layout()
+plt.savefig("top_states.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 # %% [3] Map of haunted hotspots
@@ -86,6 +87,7 @@ top_words.sort_values().plot(kind="barh", color="purple", figsize=(8, 6))
 plt.title("Top 20 Words in Haunted Place Descriptions")
 plt.xlabel("Frequency")
 plt.tight_layout()
+plt.savefig("top_words.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 # %% [5] Ghost types: which kinds of ghosts are mentioned most often
@@ -117,5 +119,6 @@ print(ghosts)
 ghosts.plot(kind="barh", color="black", figsize=(8, 5))
 plt.title("Most Common Ghost Types in Descriptions")
 plt.xlabel("Number of descriptions mentioning this type")
-plt.tight_layout()
+plt.tight_layout() 
+plt.savefig("ghost_types.png", dpi=150, bbox_inches="tight")
 plt.show()

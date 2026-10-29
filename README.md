@@ -7,7 +7,7 @@ Data analysis of ~11,000 reported haunted locations across the United States.
 ## What I did
 - Explored the dataset with pandas
 - Found the top 10 states by number of haunted places
-- Built a map of haunted hotspots with Plotly
+- Built an interactive map of haunted hotspots with Plotly
 - Ran text analysis on descriptions to find the most common words and ghost types
 
 ## Key findings
@@ -15,6 +15,20 @@ Data analysis of ~11,000 reported haunted locations across the United States.
 - Hotspots follow population density: the Northeast, the Midwest and coastal California
 - The most common words are "night", "seen", "people", "old" and "house"
 - The most frequently mentioned ghosts are men, women and girls
+
+## Results
+
+### Interactive map
+[🗺️ Open the interactive map](https://katya-davydova.github.io/haunted-places-analysis/haunted_map.html)
+
+### Top 10 states
+![Top states](top_states.png)
+
+### Most common words
+![Top words](top_words.png)
+
+### Ghost types
+![Ghost types](ghost_types.png)
 
 ## Tools
 Python, pandas, matplotlib, Plotly, VS Code
